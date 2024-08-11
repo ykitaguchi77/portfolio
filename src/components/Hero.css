@@ -1,0 +1,27 @@
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.avatar {
+  margin-top: 40px;
+}
+
+.avatar-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: #8A2BE2;
+  border-radius: 50%;
+  margin: 0 auto;
+}

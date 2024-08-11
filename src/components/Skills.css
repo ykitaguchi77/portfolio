@@ -1,0 +1,32 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.skill-card {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.skill-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.skill-card h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.skill-card p, .skill-card ul {
+  color: #666;
+}
+
+.skill-card ul {
+  list-style-type: none;
+  padding: 0;
+}

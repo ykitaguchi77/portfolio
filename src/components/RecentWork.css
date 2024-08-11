@@ -1,0 +1,31 @@
+.recent-work {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.recent-work h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.recent-work p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.work-item {
+  background-color: #f0f0f0;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  border-radius: 10px;
+}
