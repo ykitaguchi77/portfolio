@@ -19,7 +19,7 @@ const Affiliation = () => {
               </dt>
               <dd className="mt-2 text-base text-gray-500">
                 <div className="flex flex-col md:flex-row items-center md:items-start">
-                  <img src="/images/osaka_univ.jpg" alt="Osaka University" className="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4" />
+                  <img src={`${process.env.PUBLIC_URL}/images/osaka_univ.jpg`} alt="Osaka University" className="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4" />
                   <div>
                     <a href="https://www.hosp.med.osaka-u.ac.jp/departments/ophthalmology.html" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
                       https://www.hosp.med.osaka-u.ac.jp/departments/ophthalmology.html
@@ -37,7 +37,7 @@ const Affiliation = () => {
               </dt>
               <dd className="mt-2 text-base text-gray-500">
                 <div className="flex flex-col md:flex-row items-center md:items-start">
-                  <img src="/images/eyecenter.jpg" alt="Nakanoshima Eye Center" className="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4" />
+                  <img src={`${process.env.PUBLIC_URL}/images/eyecenter.jpg`} alt="Nakanoshima Eye Center" className="w-full md:w-1/3 h-auto object-cover rounded-lg mb-4 md:mb-0 md:mr-4" />
                   <div>
                     <a href="https://eyecenter.jp/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
                       https://eyecenter.jp/

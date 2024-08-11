@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <img 
-            src="/images/profile.jpg" 
+            src={`${process.env.PUBLIC_URL}/images/profile.jpg`} 
             alt="Dr. Yoshiyuki Kitaguchi" 
             className="rounded-full w-64 h-64 object-cover shadow-lg"
           />

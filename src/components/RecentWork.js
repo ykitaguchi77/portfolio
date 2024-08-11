@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={project.image} alt={project.title} className="w-full h-64 object-cover" />
+      <img src={`${process.env.PUBLIC_URL}${project.image}`} alt={project.title} className="w-full h-64 object-cover" />
       <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         <h3 className="text-white text-2xl font-bold text-center">{project.title}</h3>
       </div>
