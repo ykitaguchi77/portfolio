@@ -1,12 +1,10 @@
 import React from 'react';
-import { Palette } from 'lucide-react';
 
 const Affiliation = () => {
   return (
     <div className="bg-gray-100 py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <Palette className="mx-auto h-12 w-12 text-purple-600" />
           <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Affiliation
           </h2>
