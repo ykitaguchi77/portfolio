@@ -20,7 +20,7 @@ const ExpertiseSection = () => {
           <ul className="text-sm space-y-2">
             <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Blephaoptosis, Epiblepharon, Entropion, and Facial nerve palsy reconstruction, etc. for East Asian eyelids</li>
             <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Eyelid & Orbital Tumor biopsy, excision and reconstruction, utilizing the latest techniques to ensure functional and aesthetic restoration.</li>
-            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Rehabilitative surgeries including Orbital decompression, squint surgery, and eyelid surgery for Grave's orbitopathy</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Rehabilitative surgeries for Grave's orbitopathyincluding Orbital decompression, squint surgery, and eyelid surgery</li>
             <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Blowout fracture repair</li>
             <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Dacryocystorhinostomy (DCR) & Lacrimal endoscopic stenting for tear duct obstruction</li>
           </ul>
