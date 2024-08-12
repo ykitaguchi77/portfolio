@@ -6,10 +6,12 @@ import ExpertiseSection from './components/ExpertiseSection';
 import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
 import ProjectPage from './pages/ProjectPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={

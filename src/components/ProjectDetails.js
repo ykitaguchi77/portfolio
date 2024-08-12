@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Info, Workflow } from 'lucide-react';
 
+
+
 const projects = {
   corneapp: {
     title: 'Secure Smartphone Photo Collection',
