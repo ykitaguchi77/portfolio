@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Info, Workflow } from 'lucide-react';
 
-
-
 const projects = {
   corneapp: {
     title: 'Secure Smartphone Photo Collection',
@@ -42,6 +40,26 @@ const projects = {
       },
     ],
   },
+  corneai: {
+    title: 'CorneAI_for_iOS',
+    description: 'Smartphone implementation of anterior segment disease classification AI',
+    image: '/images/corneai_ios.png',
+    details: 'CorneAI_for_iOS is an innovative application that brings the power of artificial intelligence to ophthalmology, specifically focusing on anterior segment disease classification. This iOS app allows healthcare professionals to quickly and accurately diagnose various eye conditions using smartphone cameras.',
+    features: [
+      "Real-time AI-powered diagnosis of anterior segment diseases",
+      "High accuracy in identifying common eye conditions",
+      "User-friendly interface for easy image capture and analysis",
+      "Secure storage and handling of patient data",
+      "Integration with medical record systems for streamlined workflow"
+    ],
+    technicalDetails: [
+      "Developed using Swift and CoreML for iOS",
+      "Utilizes a custom-trained convolutional neural network (CNN) for image classification",
+      "Implements transfer learning techniques for improved accuracy with limited training data",
+      "Regularly updated AI model to incorporate new findings and improve diagnostic accuracy"
+    ],
+    impact: "CorneAI_for_iOS has the potential to revolutionize eye care, especially in remote or underserved areas. By providing quick and accurate diagnoses, it can help in early detection of eye diseases, leading to better treatment outcomes and improved patient care."
+  },
 };
 
 const ProjectDetails = ({ projectId }) => {
@@ -69,14 +87,42 @@ const ProjectDetails = ({ projectId }) => {
         </h2>
         <p className="text-lg">{project.details}</p>
       </div>
-      <div className="space-y-4">
-        <h3 className="text-2xl font-semibold mb-4">Anonymization Process</h3>
-        <div className="space-y-2 pl-6">
-          {project.anonymizationProcess.map((item, index) => (
-            <p key={index} className="text-lg">{item}</p>
-          ))}
+      {project.anonymizationProcess && (
+        <div className="space-y-4">
+          <h3 className="text-2xl font-semibold mb-4">Anonymization Process</h3>
+          <div className="space-y-2 pl-6">
+            {project.anonymizationProcess.map((item, index) => (
+              <p key={index} className="text-lg">{item}</p>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
+      {project.features && (
+        <div className="space-y-4">
+          <h3 className="text-2xl font-semibold mb-4">Key Features</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            {project.features.map((feature, index) => (
+              <li key={index} className="text-lg">{feature}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {project.technicalDetails && (
+        <div className="space-y-4">
+          <h3 className="text-2xl font-semibold mb-4">Technical Details</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            {project.technicalDetails.map((detail, index) => (
+              <li key={index} className="text-lg">{detail}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {project.impact && (
+        <div className="space-y-4">
+          <h3 className="text-2xl font-semibold mb-4">Impact</h3>
+          <p className="text-lg">{project.impact}</p>
+        </div>
+      )}
       {project.screenshots && (
         <div className="space-y-8">
           <h2 className="text-3xl font-semibold flex items-center">
