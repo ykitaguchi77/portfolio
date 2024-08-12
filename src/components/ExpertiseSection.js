@@ -18,10 +18,11 @@ const ExpertiseSection = () => {
           </div>
           <h3 className="text-2xl font-semibold text-center mb-4">Oculoplastic Surgeon</h3>
           <ul className="text-sm space-y-2">
-            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Board-certified with extensive experience</li>
-            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Specializing in oculoplastic, orbital & lacrimal surgery</li>
-            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Expert in ptosis, entropion, and facial nerve palsy reconstruction</li>
-            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Advanced treatments for eyelid and orbital tumors</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Blephaoptosis, Epiblepharon, Entropion, and Facial nerve palsy reconstruction, etc. for East Asian eyelids</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Eyelid & Orbital Tumor biopsy, excision and reconstruction, utilizing the latest techniques to ensure functional and aesthetic restoration.</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Rehabilitative surgeries including Orbital decompression, squint surgery, and eyelid surgery for Grave's orbitopathy</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Blowout fracture repair</li>
+            <li><ChevronRight className="inline w-4 h-4 text-green-600" /> Dacryocystorhinostomy (DCR) & Lacrimal endoscopic stenting for tear duct obstruction</li>
           </ul>
         </div>
         
@@ -29,12 +30,13 @@ const ExpertiseSection = () => {
           <div className="flex justify-center mb-4">
             <Brain className="w-16 h-16 text-blue-600" />
           </div>
-          <h3 className="text-2xl font-semibold text-center mb-4">AI Researcher</h3>
+          <h3 className="text-2xl font-semibold text-center mb-4">AI Researcher & Creator</h3>
           <ul className="text-sm space-y-2">
             <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Pioneering AI applications in ophthalmology</li>
             <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Developing AI for Grave's orbitopathy diagnosis</li>
-            <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Creating innovative blink tracking for blepharospasm</li>
-            <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Leading research in anterior segment disease classification</li>
+            <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Creating blink tracking for blepharospasm</li>
+            <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Edge implementation of AI for anterior segment disease classification</li>
+            <li><ChevronRight className="inline w-4 h-4 text-blue-600" /> Innovating tools and devices to improve patient care and surgical outcomes</li>
           </ul>
         </div>
       </div>

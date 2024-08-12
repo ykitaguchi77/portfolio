@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import RecentWork from './components/RecentWork';
 import ProjectPage from './pages/ProjectPage';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         } />
         <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

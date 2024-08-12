@@ -61,7 +61,8 @@ const RecentWork = () => {
         <h2 className="text-4xl font-bold text-center mb-8">My Recent Work</h2>
         <p className="text-xl text-center mb-12">
           Here are a few recent research projects I've worked on. Want to see more?{' '}
-          <a href="mailto:kitaguchi@yk-gankeisei.com" className="text-blue-600 hover:underline">Email</a> me.
+          <a href="mailto:kitaguchi@yk-gankeisei.com" className="text-blue-600 hover:underline"   target="_blank"
+  rel="noopener noreferrer">Email</a> me.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project) => (
