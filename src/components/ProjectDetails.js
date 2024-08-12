@@ -74,7 +74,7 @@ const projects = {
     impact: "CorneAI_for_iOS demonstrates high reproducibility and robustness across various conditions. The high accuracy, especially for slit lamp photos, and strong agreement with the PC version indicate that AI-supported anterior segment disease diagnosis is feasible using just a smartphone. This could significantly improve eye care accessibility in underserved areas.",
     screenshots: [
       {
-        src: '/images/cornei_ios/use_image.jpg',
+        src: '/images/corneai_ios/use_image.jpg',
         alt: 'CorneAI iOS App Usage',
         description: 'This image showcases the CorneAI iOS app in action. It displays the user interface where ophthalmologists can input or capture images of the anterior segment of the eye. The app then uses advanced AI algorithms to analyze the image and provide a classification of potential diseases or conditions.'
       }
